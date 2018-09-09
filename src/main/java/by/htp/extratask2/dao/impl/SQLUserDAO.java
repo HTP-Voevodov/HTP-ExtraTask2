@@ -7,6 +7,7 @@ import by.htp.extratask2.dao.UserDAO;
 
 public class SQLUserDAO implements UserDAO{
 
+	
 	@Override
 	public User singIn(String login, String password) throws DAOException {
 		// TODO Auto-generated method stub
